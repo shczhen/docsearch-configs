@@ -1,0 +1,66 @@
+{
+  "index_name": "en-stable",
+  "start_urls": [
+    {
+      "url": "https://pingcap.com/docs/stable/",
+      "selectors_key": "docs"
+    },
+    {
+      "url": "https://pingcap.com/docs/tidb-data-migration/stable/",
+      "selectors_key": "docs",
+      "extra_attributes": {
+        "docs_type": [
+          "tidb-data-migration"
+        ]
+      }
+    },
+    {
+      "url": "https://pingcap.com/docs/tidb-in-kubernetes/stable/",
+      "selectors_key": "docs",
+      "extra_attributes": {
+        "docs_type": [
+          "tidb-in-kubernetes"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "/docs/stable/TOC",
+    "/docs/tidb-data-migration/stable/TOC",
+    "/docs/tidb-in-kubernetes/stable/TOC"
+  ],
+  "sitemap_urls": [
+    "https://pingcap.com/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content ul, .content table, .content code"
+    },
+    "docs": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content ul, .content table, .content code"
+    }
+  },
+  "selectors_exclude": [
+    ".error"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "docs_type"
+    ]
+  },
+  "conversation_id": [
+    "428916846"
+  ],
+  "only_content_level": true,
+  "nb_hits": 159018
+}
