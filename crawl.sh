@@ -1,6 +1,6 @@
 #!/bin/bash
 
-folder=(cn-stable cn-dev cn-v2.1 cn-v3.1 cn-v3.0 cn-v1.0)
+folder=(en-stable en-dev en-v2.1 en-v3.1 en-v3.0 en-v1.0)
 
 for v in "${folder[@]}"
 do

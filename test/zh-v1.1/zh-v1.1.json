@@ -1,0 +1,58 @@
+{
+  "index_name": "zh-v1.1",
+  "start_urls": [
+    {
+      "url": "https://pingcap.com/docs-cn/tidb-in-kubernetes/stable/",
+      "selectors_key": "docs_cn",
+      "extra_attributes": {
+        "docs_type": [
+          "tidb-operator"
+        ],
+        "version": [
+          "v1.1"
+        ]
+      }
+    }
+  ],
+  "stop_urls": [
+    "/docs-cn/tidb-in-kubernetes/v1.1/TOC"
+  ],
+  "sitemap_urls": [
+    "https://pingcap.com/sitemap.xml"
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content ul, .content table， .content code"
+    },
+    "docs_cn": {
+      "lvl0": ".content h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p, .content ul, .content table, .content code"
+    }
+  },
+  "selectors_exclude": [
+    ".error"
+  ],
+  "custom_settings": {
+    "attributesForFaceting": [
+      "docs_type",
+      "version"
+    ],
+    "attributeForDistinct": "url_without_anchor",
+    "distinct": true,
+    "disableTypoToleranceOnWords": ["mva", "tiup", "tiops", "tidb4.0", "tidb 4.0"]
+  },
+  "conversation_id": [
+    "428916846"
+  ],
+  "only_content_level": true,
+  "nb_hits": 159018
+}
