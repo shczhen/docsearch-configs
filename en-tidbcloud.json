@@ -1,0 +1,57 @@
+{
+    "index_name": "website-docs-en-tidbcloud",
+    "start_urls": [
+        {
+            "url": "https://docs.pingcap.com/tidbcloud/beta/",
+            "selectors_key": "docs",
+            "extra_attributes": {
+                "version": [
+                    "beta"
+                ]
+            }
+        }
+    ],
+    "sitemap_urls": [
+        "https://docs.pingcap.com/website-docs-sitemap.xml"
+    ],
+    "selectors": {
+        "default": {
+            "lvl0": ".doc-content h1",
+            "lvl1": ".doc-content h2",
+            "lvl2": ".doc-content h3",
+            "lvl3": ".doc-content h4",
+            "lvl4": ".doc-content h5",
+            "text": ".doc-content p, .doc-content ul, .doc-content table, .doc-content code"
+        },
+        "docs": {
+            "lvl0": ".doc-content h1",
+            "lvl1": ".doc-content h2",
+            "lvl2": ".doc-content h3",
+            "lvl3": ".doc-content h4",
+            "lvl4": ".doc-content h5",
+            "text": ".doc-content p, .doc-content ul, .doc-content table, .doc-content code"
+        }
+    },
+    "selectors_exclude": [
+        ".error"
+    ],
+    "custom_settings": {
+        "attributesForFaceting": [
+            "version"
+        ],
+        "attributeForDistinct": "url_without_anchor",
+        "distinct": true,
+        "disableTypoToleranceOnWords": [
+            "mva",
+            "tiup",
+            "tiops",
+            "tidb4.0",
+            "tidb 4.0"
+        ]
+    },
+    "conversation_id": [
+        "428916846"
+    ],
+    "only_content_level": true,
+    "nb_hits": 159018
+}
