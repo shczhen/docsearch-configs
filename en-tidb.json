@@ -2,7 +2,7 @@
     "index_name": "website-docs-en-tidb",
     "start_urls": [
         {
-            "url": "https://docs.pingcap.com/tidb/v4.0",
+            "url": "https://docs.pingcap.com/tidb/stable/",
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [
@@ -11,7 +11,7 @@
             }
         },
         {
-            "url": "https://docs.pingcap.com/tidb/v3.1",
+            "url": "https://docs.pingcap.com/tidb/v3.1/",
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [
@@ -20,7 +20,7 @@
             }
         },
         {
-            "url": "https://docs.pingcap.com/tidb/v3.0",
+            "url": "https://docs.pingcap.com/tidb/v3.0/",
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [
@@ -29,7 +29,7 @@
             }
         },
         {
-            "url": "https://docs.pingcap.com/tidb/v2.1",
+            "url": "https://docs.pingcap.com/tidb/v2.1/",
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [
@@ -38,7 +38,7 @@
             }
         },
         {
-            "url": "https://docs.pingcap.com/tidb/dev",
+            "url": "https://docs.pingcap.com/tidb/dev/",
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [

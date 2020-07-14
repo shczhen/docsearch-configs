@@ -2,7 +2,7 @@
     "index_name": "website-docs-zh-tidb",
     "start_urls": [
         {
-            "url": "https://docs.pingcap.com/zh/tidb/v4.0",
+            "url": "https://docs.pingcap.com/zh/tidb/stable",
             "selectors_key": "docs_cn",
             "extra_attributes": {
                 "version": [

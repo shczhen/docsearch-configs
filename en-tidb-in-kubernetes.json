@@ -2,7 +2,7 @@
     "index_name": "website-docs-en-tidb-in-kubernetes",
     "start_urls": [
         {
-            "url": "https://docs.pingcap.com/tidb-in-kubernetes/v1.1",
+            "url": "https://docs.pingcap.com/tidb-in-kubernetes/stable/",
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [
@@ -11,7 +11,7 @@
             }
         },
         {
-            "url": "https://docs.pingcap.com/tidb-in-kubernetes/v1.0",
+            "url": "https://docs.pingcap.com/tidb-in-kubernetes/v1.0/",
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [
@@ -20,7 +20,7 @@
             }
         },
         {
-            "url": "https://docs.pingcap.com/tidb-in-kubernetes/dev",
+            "url": "https://docs.pingcap.com/tidb-in-kubernetes/dev/",
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [

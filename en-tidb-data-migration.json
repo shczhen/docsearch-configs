@@ -2,7 +2,7 @@
     "index_name": "website-docs-en-tidb-data-migration",
     "start_urls": [
         {
-            "url": "https://docs.pingcap.com/tidb-data-migration/v1.0/",
+            "url": "https://docs.pingcap.com/tidb-data-migration/stable/",
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [
