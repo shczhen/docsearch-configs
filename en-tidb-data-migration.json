@@ -11,6 +11,15 @@
             }
         },
         {
+            "url": "https://docs.pingcap.com/tidb-data-migration/v2.0/",
+            "selectors_key": "docs",
+            "extra_attributes": {
+                "version": [
+                    "v2.0"
+                ]
+            }
+        },
+        {
             "url": "https://docs.pingcap.com/tidb-data-migration/dev/",
             "selectors_key": "docs",
             "extra_attributes": {
