@@ -6,16 +6,16 @@
             "selectors_key": "docs_cn",
             "extra_attributes": {
                 "version": [
-                    "v1.0"
+                    "v2.0"
                 ]
             }
         },
         {
-            "url": "https://docs.pingcap.com/zh/tidb-data-migration/v2.0/",
+            "url": "https://docs.pingcap.com/zh/tidb-data-migration/v1.0/",
             "selectors_key": "docs_cn",
             "extra_attributes": {
                 "version": [
-                    "v2.0"
+                    "v1.0"
                 ]
             }
         },
