@@ -48,7 +48,7 @@
         }
     ],
     "sitemap_urls": [
-        "https://docs.pingcap.com/website-docs-sitemap.xml"
+        "https://docs.pingcap.com/sitemap.xml"
     ],
     "selectors": {
         "default": {
