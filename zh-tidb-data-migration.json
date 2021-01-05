@@ -39,7 +39,7 @@
             "lvl2": ".doc-content h3",
             "lvl3": ".doc-content h4",
             "lvl4": ".doc-content h5",
-            "text": ".doc-content p, .doc-content ul, .doc-content table, .doc-content code"
+            "text": ".doc-content p, .doc-content li, .doc-content table tr, .doc-content code span"
         },
         "docs_cn": {
             "lvl0": ".doc-content h1",
@@ -47,7 +47,7 @@
             "lvl2": ".doc-content h3",
             "lvl3": ".doc-content h4",
             "lvl4": ".doc-content h5",
-            "text": ".doc-content p, .doc-content ul, .doc-content table, .doc-content code"
+            "text": ".doc-content p, .doc-content li, .doc-content table tr, .doc-content code span"
         }
     },
     "selectors_exclude": [
