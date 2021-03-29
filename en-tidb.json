@@ -2,7 +2,7 @@
     "index_name": "website-docs-en-tidb",
     "start_urls": [
         {
-            "url": "https://docs.pingcap.com/tidb/v5.0/",
+            "url": "https://docs.pingcap.com/tidb/stable/",
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [
@@ -11,7 +11,7 @@
             }
         },
         {
-            "url": "https://docs.pingcap.com/tidb/stable/",
+            "url": "https://docs.pingcap.com/tidb/v4.0/",
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [
