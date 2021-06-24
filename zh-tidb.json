@@ -2,6 +2,15 @@
     "index_name": "website-docs-zh-tidb",
     "start_urls": [
         {
+            "url": "https://docs.pingcap.com/zh/tidb/v5.1/",
+            "selectors_key": "docs_cn",
+            "extra_attributes": {
+                "version": [
+                    "v5.1"
+                ]
+            }
+        },
+        {
             "url": "https://docs.pingcap.com/zh/tidb/stable/",
             "selectors_key": "docs_cn",
             "extra_attributes": {
