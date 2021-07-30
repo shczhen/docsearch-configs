@@ -6,6 +6,15 @@
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [
+                    "v1.2"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pingcap.com/tidb-in-kubernetes/v1.1/",
+            "selectors_key": "docs",
+            "extra_attributes": {
+                "version": [
                     "v1.1"
                 ]
             }
