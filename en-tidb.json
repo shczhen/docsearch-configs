@@ -6,6 +6,15 @@
             "selectors_key": "docs",
             "extra_attributes": {
                 "version": [
+                    "v5.2"
+                ]
+            }
+        },
+        {
+            "url": "https://docs.pingcap.com/tidb/v5.1/",
+            "selectors_key": "docs",
+            "extra_attributes": {
+                "version": [
                     "v5.1"
                 ]
             }
