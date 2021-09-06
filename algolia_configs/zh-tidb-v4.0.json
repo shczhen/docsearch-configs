@@ -1,29 +1,21 @@
 {
-    "index_name": "website-docs-en-tidbcloud",
-    "start_urls": [
-        {
-            "url": "https://docs.pingcap.com/tidbcloud/public-preview/",
-            "selectors_key": "docs",
-            "extra_attributes": {
-                "version": [
-                    "public-preview"
-                ]
-            }
-        }
-    ],
+    "index_name": "zh-tidb-v4.0",
+    "docs_info": {
+        "owner": "pingcap",
+        "docs_repo": "docs",
+        "ref": "release-4.0",
+        "docs_prefix": "tidb",
+        "lang": "zh",
+        "version": "v4.0"
+    },
+    "start_urls": [],
+    "crawl_local_url": "",
+    "delete_urls": [],
     "sitemap_urls": [
         "https://docs.pingcap.com/sitemap.xml"
     ],
     "selectors": {
         "default": {
-            "lvl0": ".doc-content h1",
-            "lvl1": ".doc-content h2",
-            "lvl2": ".doc-content h3",
-            "lvl3": ".doc-content h4",
-            "lvl4": ".doc-content h5",
-            "text": ".doc-content p, .doc-content li, .doc-content table tr, .doc-content code span"
-        },
-        "docs": {
             "lvl0": ".doc-content h1",
             "lvl1": ".doc-content h2",
             "lvl2": ".doc-content h3",
@@ -37,7 +29,7 @@
     ],
     "custom_settings": {
         "attributesForFaceting": [
-            "version"
+            "url_without_anchor"
         ],
         "attributeForDistinct": "url_without_anchor",
         "distinct": true,
