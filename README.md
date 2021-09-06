@@ -67,10 +67,12 @@ Files with prefix `en-` are config files for English docs. The formate of index 
 bash run-algolia-crawler-incrementally.sh
 ```
 
-Replace `/PATH/TO/CONFIGS/` with correct path. Set crontab to crawl everyday at 11:00PM.
+Replace `/PATH/TO/CONFIGS/` with correct path on file `run-algolia-crawler-incrementally.sh`. Set crontab to crawl everyday at 11:00PM.
 
 ## Fully update
 
 ```
 bash run-algolia-crawler-fully.sh
 ```
+
+Replace `/PATH/TO/CONFIGS/` with correct path on file `run-algolia-crawler-fully.sh`.
