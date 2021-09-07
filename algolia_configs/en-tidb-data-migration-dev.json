@@ -31,6 +31,11 @@
     "attributesForFaceting": [
       "url_without_anchor"
     ],
+    "attributesToHighlight": [
+      "content",
+      "url",
+      "hierarchy"
+    ],
     "attributeForDistinct": "url_without_anchor",
     "distinct": true,
     "disableTypoToleranceOnWords": [

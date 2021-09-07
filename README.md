@@ -43,6 +43,11 @@ Files with prefix `en-` are config files for English docs. The formate of index 
     "attributesForFaceting": [
       "url_without_anchor"
     ],
+    "attributesToHighlight": [
+      "content",
+      "url",
+      "hierarchy"
+    ],
     "attributeForDistinct": "url_without_anchor",
     "distinct": true,
     "disableTypoToleranceOnWords": [
