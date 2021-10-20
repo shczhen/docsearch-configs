@@ -41,8 +41,9 @@ docker run --rm --env-file=.env -e "CONFIG=$(cat $1/algolia_configs/zh-tidb-data
 docker run --rm --env-file=.env -e "CONFIG=$(cat $1/algolia_configs/zh-tidb-data-migration-v1.0.json | jq -r tostring)" -e  "ISINCREMENTAL=True" -v $1/algolia_configs:/data hub-new.pingcap.net/xuyini/algolia-docsearch-scraper-incremental:v0.1
 docker run --rm --env-file=.env -e "CONFIG=$(cat $1/algolia_configs/zh-tidb-data-migration-v2.0.json | jq -r tostring)" -e  "ISINCREMENTAL=True" -v $1/algolia_configs:/data hub-new.pingcap.net/xuyini/algolia-docsearch-scraper-incremental:v0.1
 
-# crawl zh dev-guide
-docker run --rm --env-file=.env -e "CONFIG=$(cat $1/algolia_configs/zh-dev-guide-dev.json | jq -r tostring)" -e  "ISINCREMENTAL=True" -v $1/algolia_configs:/data hub-new.pingcap.net/xuyini/algolia-docsearch-scraper-incremental:v0.1
+# crawl zh/en appdev
+docker run --rm --env-file=.env -e "CONFIG=$(cat $1/algolia_configs/zh-appdev-dev.json | jq -r tostring)" -e  "ISINCREMENTAL=True" -v $1/algolia_configs:/data hub-new.pingcap.net/xuyini/algolia-docsearch-scraper-incremental:v0.1
+docker run --rm --env-file=.env -e "CONFIG=$(cat $1/algolia_configs/en-appdev-dev.json | jq -r tostring)" -e  "ISINCREMENTAL=True" -v $1/algolia_configs:/data hub-new.pingcap.net/xuyini/algolia-docsearch-scraper-incremental:v0.1
 
 # crawl en tidbcloud
 docker run --rm --env-file=.env -e "CONFIG=$(cat $1/algolia_configs/en-tidbcloud-public-preview.json | jq -r tostring)" -e  "ISINCREMENTAL=True" -v $1/algolia_configs:/data hub-new.pingcap.net/xuyini/algolia-docsearch-scraper-incremental:v0.1

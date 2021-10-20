@@ -1,11 +1,11 @@
 {
-  "index_name": "zh-dev-guide-dev",
+  "index_name": "en-appdev-dev",
   "docs_info": {
     "owner": "pingcap",
-    "docs_repo": "dev-guide",
+    "docs_repo": "docs-appdev",
     "ref": "master",
-    "docs_prefix": "dev-guide",
-    "lang": "zh",
+    "docs_prefix": "appdev",
+    "lang": "en",
     "version": "dev"
   },
   "start_urls": [],
@@ -30,11 +30,6 @@
   "custom_settings": {
     "attributesForFaceting": [
       "url_without_anchor"
-    ],
-    "attributesToHighlight": [
-      "content",
-      "url",
-      "hierarchy"
     ],
     "attributeForDistinct": "url_without_anchor",
     "distinct": true,
