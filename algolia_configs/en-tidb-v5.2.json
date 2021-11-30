@@ -6,8 +6,7 @@
         "ref": "release-5.2",
         "docs_prefix": "tidb",
         "lang": "en",
-        "version": "v5.2",
-        "isStable": true
+        "version": "v5.2"
     },
     "start_urls": [],
     "crawl_local_url": "",

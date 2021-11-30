@@ -6,8 +6,7 @@
     "ref": "release-2.0",
     "docs_prefix": "tidb-data-migration",
     "lang": "zh",
-    "version": "v2.0",
-    "isStable": true
+    "version": "v2.0"
   },
   "start_urls": [],
   "crawl_local_url": "",
