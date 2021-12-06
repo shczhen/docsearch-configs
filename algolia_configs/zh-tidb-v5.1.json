@@ -2,7 +2,7 @@
     "index_name": "zh-tidb-v5.1",
     "docs_info": {
         "owner": "pingcap",
-        "docs_repo": "docs",
+        "docs_repo": "docs-cn",
         "ref": "release-5.1",
         "docs_prefix": "tidb",
         "lang": "zh",
