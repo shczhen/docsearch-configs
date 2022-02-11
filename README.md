@@ -23,7 +23,7 @@ Files with prefix `en-` are config files for English docs. The formate of index 
   "crawl_local_url": "", // default empty, set baseURL of preview-docs-website here when need to crawl before going to production
   "delete_urls": [], // default empty, scraper will fill this by commits
   "sitemap_urls": [
-    "https://docs.pingcap.com/sitemap.xml" // default value is sitemap url of offical pingcap website-docs, change it when need to crawl pages before going to production.
+    "https://docs.pingcap.com/sitemap/sitemap-index.xml" // default value is sitemap url of offical pingcap website-docs, change it when need to crawl pages before going to production.
   ],
   "selectors": {
     "default": {
