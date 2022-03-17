@@ -6,8 +6,7 @@
     "ref": "release-5.3",
     "docs_prefix": "tidb-data-migration",
     "lang": "en",
-    "version": "v5.3",
-    "isStable": true
+    "version": "v5.3"
   },
   "start_urls": [],
   "crawl_local_url": "",
