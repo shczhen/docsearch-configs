@@ -1,12 +1,12 @@
 {
-  "index_name": "en-tidbcloud-public-preview",
+  "index_name": "en-tidbcloud",
   "docs_info": {
     "owner": "tidbcloud",
     "docs_repo": "dbaas-docs",
     "ref": "master",
     "docs_prefix": "tidbcloud",
     "lang": "en",
-    "version": "public-preview"
+    "version": ""
   },
   "start_urls": [],
   "crawl_local_url": "",
