@@ -6,7 +6,7 @@ Files with prefix `zh-` are config files for Chinese docs. The formate of index 
 
 ## docs(en)
 
-Files with prefix `en-` are config files for English docs. The formate of index is `en-<DOCS_TYPE>-<DOCS_VERSION>`, each index will store the specific version of the corresponding docs_type.
+Files with prefix `en-` are config files for English docs. The formate of index is `en-<DOCS_TYPE>-<DOCS_VERSION>`, each index will store the specific version of the corresponding docs_type. `<DOCS_VERSION>` is empty on tidbcloud docs.
 
 ```json
 {
@@ -17,7 +17,7 @@ Files with prefix `en-` are config files for English docs. The formate of index 
     "ref": "release-1.0", // branch name
     "docs_prefix": "tidb-data-migration", // url prefix of docs_type shows on website-docs
     "lang": "en", // docs language
-    "version": "v1.0" // docs version shows on website-docs
+    "version": "v1.0" // docs version shows on website-docs, may be empty
   },
   "start_urls": [], // default empty, scraper will fill this by commits
   "crawl_local_url": "", // default empty, set baseURL of preview-docs-website here when need to crawl before going to production
